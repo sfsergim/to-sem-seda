@@ -119,10 +119,10 @@ class ResourceBase(Resource):
 
     @property
     def cookies(self):
-        username = request.cookies.get('inceresUserName', None)
-        token = request.cookies.get('inceresUserToken', 'null')
-        profile_key = request.cookies.get('inceresProfileKey', 'null')
-        return {'inceresUserName': username, 'inceresUserToken': token, 'inceresProfileKey': profile_key}
+        username = request.cookies.get('tosemsedaUserName', None)
+        token = request.cookies.get('tosemsedaUserToken', 'null')
+        profile_key = request.cookies.get('tosemsedaProfileKey', 'null')
+        return {'tosemsedaUserName': username, 'tosemsedaUserToken': token, 'tosemsedaProfileKey': profile_key}
 
     def options(self, *args, **kwargs):
         return {'result': True}
