@@ -14,7 +14,7 @@ def __build_env(environ='prod'):
             setattr(env, pair[0], pair[1])
     env.host_string = '{}-{}'.format(environ, env.PROJECT_NAME)
     env.key_filename = getattr(env, '{}_AWS_KEY_FILENAME'.format(environ.upper()))
-    env.user = "inceres"
+    env.user = "tosemseda"
     env.shell = "/bin/bash -l -i -c"
 
 
