@@ -1,4 +1,4 @@
-# Instalação do projeto do Ponto-inceres
+# Instalação do projeto do Tosemseda
 
 ### Pré-instalação
 
@@ -21,13 +21,13 @@ Reinicie seu terminal ou execute:
 
 Crie o virtualenv:
 
-    $ mkvirtualenv ponto-inceres-api
+    $ mkvirtualenv Tosemseda-api
 
 ps.: Ajuste as variáveis de acordo com as suas configurações. 
 Caso tenha algum problema: 
 #### A culpa SEMPRE é do Guilherme!
        
-Instale os pacotes necessários, lembre-se de estar dentro do virtualenv criado, para este caso (workon ponto-inceres-api):
+Instale os pacotes necessários, lembre-se de estar dentro do virtualenv criado, para este caso (workon Tosemseda-api):
 
     $ pip install -r requirements.txt
     $ pip install -r requirements_dev.txt
